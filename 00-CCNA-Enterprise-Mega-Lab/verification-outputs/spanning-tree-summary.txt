@@ -1,0 +1,246 @@
+DSW-A1#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for: PCs Management
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     4         0        0          4          8
+VLAN0020                     4         0        0          4          8
+VLAN0040                     4         0        0          4          8
+VLAN0099                     4         0        0          4          8
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                     16         0        0         16         32
+
+---------------------------------------------------------------------------------
+
+DSW-A2#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for: Phones Wi-Fi
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     5         0        0          3          8
+VLAN0020                     4         0        0          4          8
+VLAN0040                     4         0        0          4          8
+VLAN0099                     5         0        0          3          8
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                     18         0        0         14         32
+
+---------------------------------------------------------------------------------
+
+DSW-B1#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for: PCs Management
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     4         0        0          4          8
+VLAN0020                     4         0        0          4          8
+VLAN0030                     4         0        0          4          8
+VLAN0099                     4         0        0          4          8
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                     16         0        0         16         32
+
+---------------------------------------------------------------------------------
+
+DSW-B2#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for: Phones Servers
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     4         0        0          4          8
+VLAN0020                     4         0        0          4          8
+VLAN0030                     4         0        0          4          8
+VLAN0099                     4         0        0          4          8
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                     16         0        0         16         32
+
+---------------------------------------------------------------------------------
+
+ASW-A1#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for:
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     2         0        0          2          4
+VLAN0020                     3         0        0          1          4
+VLAN0040                     2         0        0          2          4
+VLAN0099                     0         0        0          4          4
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                      7         0        0          9         16
+
+---------------------------------------------------------------------------------
+
+ASW-A2#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for:
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     1         0        0          2          3
+VLAN0020                     1         0        0          2          3
+VLAN0040                     2         0        0          1          3
+VLAN0099                     2         0        0          1          3
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                      6         0        0          6         12
+
+---------------------------------------------------------------------------------
+
+ASW-A3#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for:
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     1         0        0          2          3
+VLAN0020                     1         0        0          2          3
+
+---------------------------------------------------------------------------------
+
+ASW-B1#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for:
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     2         0        0          1          3
+VLAN0020                     2         0        0          1          3
+VLAN0030                     2         0        0          1          3
+VLAN0099                     1         0        0          2          3
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                      7         0        0          5         12
+VLAN0040                     2         0        0          1          3
+VLAN0099                     2         0        0          1          3
+
+5 vlans                      7         0        0          5         12
+
+---------------------------------------------------------------------------------
+
+ASW-B2#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for:
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     1         0        0          2          3
+VLAN0020                     1         0        0          2          3
+VLAN0030                     2         0        0          1          3
+VLAN0099                     2         0        0          1          3
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                      6         0        0          6         12
+
+---------------------------------------------------------------------------------
+
+ASW-B3#sh spanning-tree summary 
+Switch is in rapid-pvst mode
+Root bridge for:
+Extended system ID           is enabled
+Portfast Default             is disabled
+PortFast BPDU Guard Default  is disabled
+Portfast BPDU Filter Default is disabled
+Loopguard Default            is disabled
+EtherChannel misconfig guard is disabled
+UplinkFast                   is disabled
+BackboneFast                 is disabled
+Configured Pathcost method used is short
+
+Name                   Blocking Listening Learning Forwarding STP Active
+---------------------- -------- --------- -------- ---------- ----------
+VLAN0010                     2         0        0          1          3
+VLAN0020                     2         0        0          1          3
+VLAN0030                     1         0        0          2          3
+VLAN0099                     2         0        0          1          3
+
+---------------------- -------- --------- -------- ---------- ----------
+5 vlans                      7         0        0          5         12
