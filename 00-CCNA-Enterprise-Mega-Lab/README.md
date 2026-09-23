@@ -7,7 +7,7 @@ The architecture encompasses a dual-office campus (Office A & Office B) connecte
 ---
 
 ## 🗺️ Topology Diagram
-![Enterprise Network Topology](topology.png)
+![Enterprise Network Topology](./NetworkTopology)
 
 ---
 
