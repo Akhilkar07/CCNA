@@ -1,0 +1,17 @@
+R1#sh ip nat translations 
+Pro  Inside global     Inside local       Outside local      Outside global
+---  203.0.113.113     10.5.0.1           ---                ---
+
+
+R1#sh ip nat statistics 
+Total translations: 1 (1 static, 0 dynamic, 0 extended)
+Outside Interfaces: GigabitEthernet0/0/0 , GigabitEthernet0/1/0
+Inside Interfaces: GigabitEthernet0/0 , GigabitEthernet0/1
+Hits: 0  Misses: 68
+Expired translations: 0
+Dynamic mappings:
+-- Inside Source
+access-list 2 pool POOL1 refCount 0
+ pool POOL1: netmask 255.255.255.248
+       start 203.0.113.200 end 203.0.113.207
+       type generic, total addresses 8 , allocated 0 (0%), misses 0
