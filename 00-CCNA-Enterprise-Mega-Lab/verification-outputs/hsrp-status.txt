@@ -1,0 +1,42 @@
+DSW-A1#sh standby brief 
+                     P indicates configured to preempt.
+                     |
+Interface   Grp  Pri P State    Active          Standby         Virtual IP
+Vl10        2    105 P Active   local           10.1.0.3        10.1.0.1       
+Vl20        3    100   Standby  10.2.0.3        local           10.2.0.1       
+Vl40        4    100   Standby  10.6.0.3        local           10.6.0.1       
+Vl99        1    105 P Active   local           10.0.0.3        10.0.0.1 
+
+--------------------------------------------------------------------------------
+
+DSW-A2#sh standby brief 
+                     P indicates configured to preempt.
+                     |
+Interface   Grp  Pri P State    Active          Standby         Virtual IP
+Vl10        2    100   Standby  10.1.0.2        local           10.1.0.1       
+Vl20        3    105 P Active   local           10.2.0.2        10.2.0.1       
+Vl40        4    105 P Active   local           10.6.0.2        10.6.0.1       
+Vl99        1    100   Standby  10.0.0.2        local           10.0.0.1   
+
+--------------------------------------------------------------------------------
+
+DSW-B1#sh standby brief 
+                     P indicates configured to preempt.
+                     |
+Interface   Grp  Pri P State    Active          Standby         Virtual IP
+Vl10        2    105 P Active   local           10.3.0.3        10.3.0.1       
+Vl20        3    100   Standby  10.4.0.3        local           10.4.0.1       
+Vl30        4    100   Standby  10.5.0.3        local           10.5.0.1       
+Vl99        1    105 P Active   local           10.0.0.19       10.0.0.17   
+
+--------------------------------------------------------------------------------
+
+DSW-B2#sh standby brief 
+                     P indicates configured to preempt.
+                     |
+Interface   Grp  Pri P State    Active          Standby         Virtual IP
+Vl10        2    100   Standby  10.3.0.2        local           10.3.0.1       
+Vl20        3    105 P Active   local           10.4.0.2        10.4.0.1       
+Vl30        4    105 P Active   local           10.5.0.2        10.5.0.1       
+Vl99        1    100   Standby  10.0.0.18       local           10.0.0.17 
+
